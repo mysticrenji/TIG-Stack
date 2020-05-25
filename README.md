@@ -1,1 +1,1 @@
-# Latecy test with TIG-Stack
+# Latency test with TIG-Stack
