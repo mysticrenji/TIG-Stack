@@ -27,7 +27,7 @@ count = 4 </br>
 ping_interval = 1.0 </br>
 timeout = 2.0 </br>
 
-I have used Internet Bandwidth Monitor dasboard to visualise the latency
+I have used Internet Bandwidth Monitor dasboard to visualise the latency by importing Dashboard Template. Dashboard ID - 2690
 
 You may start the process by running run.sh </br> </br>
 >run.sh
