@@ -3,7 +3,7 @@
 ## 1. Latency Test
 We can simulate latency test using latencytest.sh file. The script can be run with different arguments (low, medium , high ranges)
 
-> latencytest.sh 
+> latencytest.sh medium
 
 
 none     = no latency change </br>
@@ -18,7 +18,7 @@ Influx DB will be hosted in port 8086 </br>
 Grafana will be hosted in port 3000 </br>
 
 Telegraf config has additional input plugins than the default one that comes along with </br>
---> docker-influxdb-grafana/telegraf.conf </br>
+--> ../docker-influxdb-grafana/telegraf.conf </br>
 
 [[inputs.ping]] </br>
 interval = "60s" </br>
@@ -27,6 +27,7 @@ count = 4 </br>
 ping_interval = 1.0 </br>
 timeout = 2.0 </br>
 
+I have used Internet Bandwidth Monitor dasboard to visualise the latency
 
 You may start the process by running run.sh </br> </br>
 >run.sh
