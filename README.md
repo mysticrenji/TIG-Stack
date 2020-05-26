@@ -32,3 +32,5 @@ I have used Internet Bandwidth Monitor dasboard to visualise the latency
 You may start the process by running run.sh </br> </br>
 >run.sh
 
+
+![Internet Bandwidth Dashboard](https://github.com/mysticrenji/TIG-Stack/blob/master/Internet%20bandwidth%20Monitor.PNG)
