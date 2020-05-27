@@ -17,15 +17,16 @@ Docker compose file comprises of Telegraf, InfluxDB and Grafana. The default cre
 Influx DB will be hosted in port 8086 </br>
 Grafana will be hosted in port 3000 </br>
 
-Telegraf config has additional input plugins than the default one that comes along with </br>
---> ../docker-influxdb-grafana/telegraf.conf </br>
+Telegraf config has additional input plugins than the default one that comes along with the package</br>
+you may find it in the below path </br>
+> /docker-influxdb-grafana/telegraf.conf </br>
 
-[[inputs.ping]] </br>
-interval = "60s" </br>
-urls = ["208.67.222.222", "208.67.220.220", "ddg.gg", "pfSense.home", "accessPoint.home", "amazon.com", "github.com"] </br>
-count = 4 </br>
-ping_interval = 1.0 </br>
-timeout = 2.0 </br>
+>[[inputs.ping]] </br>
+>interval = "60s" </br>
+>urls = ["208.67.222.222", "208.67.220.220", "ddg.gg", "pfSense.home", "accessPoint.home", "amazon.com", "github.com"] </br>
+>count = 4 </br>
+>ping_interval = 1.0 </br>
+>timeout = 2.0 </br>
 
 I have used Internet Bandwidth Monitor dasboard to visualise the latency by importing Dashboard Template. Dashboard ID - 2690
 
