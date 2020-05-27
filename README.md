@@ -2,7 +2,7 @@
 
 ## 1. Latency Test
 We can simulate latency test using latencytest.sh file. The script can be run with different arguments (low, medium , high ranges)
-
+Implementation was done with tc command in linux with wlan0 as network adapter. OS is Raspbian Buster Lite and device is Rpi 3.
 > latencytest.sh medium
 
 
